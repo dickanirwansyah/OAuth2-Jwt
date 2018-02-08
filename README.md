@@ -24,6 +24,6 @@ ketik <b><i>mvn clean spring-boot:run</i></b>
 # Mendapatkan Token
 <br/>
 
-`
-$ curl clientGojekApp:mysecret@localhost:8080/oauth/token -d grant_type=password -d username=dickanirwansyah@gmail.com -d password=rootroot
+```
+$ curl clientGojekApp:mysecret@localhost:8080/oauth/token -d grant_type=password -d username=dickanirwansyah@gmail.com -d password=rootroot```
 
