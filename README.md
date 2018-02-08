@@ -16,7 +16,15 @@ Aplikasi terdiri dari :
 # Jalankan Aplikasi OAuth2 Authorization Server
 ketik <b><i>java-jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar</i></b>  di command line 
 <br/>
+<br/>
 # Jalankan Aplikasi OAuth2 Resource Server 
 ketik <b><i>mvn clean spring-boot:run</i></b>
+<br/>
+<br/>
+# Mendapatkan Token
+```
+$ curl clientGojekApp:mysecret@localhost:8080/oauth/token -d grant_type=password -d username=dickanirwansyah@gmail.com -d password=rootroot
+
+```
 
 
