@@ -14,7 +14,9 @@ Aplikasi terdiri dari :
 <li>4. Spring Security Jwt</li>
 </ul>
 # Jalankan Aplikasi OAuth2 Authorization Server
-ketik <b><i>java-jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar</i></b>  di command line 
+ketik 
+```
+java-jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar```  di command line 
 <br/>
 <br/>
 # Jalankan Aplikasi OAuth2 Resource Server 
