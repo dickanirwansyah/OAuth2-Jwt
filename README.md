@@ -13,22 +13,24 @@ Aplikasi terdiri dari :
 <li>3. Spring Security OAuth2</li>
 <li>4. Spring Security Jwt</li>
 </ul>
-# Jalankan Aplikasi OAuth2 Authorization Server
+<hr/>
+<h2>Jalankan Aplikasi</h2>
+<h4>1. Jalankan Aplikasi OAuth2 Authorization Server</h4>
 ketik <b><i>java-jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar</i></b>  di command line 
 <br/>
 <br/>
-# Jalankan Aplikasi OAuth2 Resource Server 
+<h4>2. Jalankan Aplikasi OAuth2 Resource Server</h4> 
 ketik <b><i>mvn clean spring-boot:run</i></b>
 <br/>
 <br/>
-# Mendapatkan Token
+<h4>3. Mendapatkan Token</h4>
 <br/>
 
 ```
 $ curl clientGojekApp:mysecret@localhost:8080/oauth/token -d grant_type=password -d username=dickanirwansyah@gmail.com -d password=rootroot
 ```
 <br/>
-# Mendapatkan Token di Auth Server
+<h4>5. Mendapatkan Token di Auth Server (Auth Server di localhost:8080)</h4>
 
 ```
 
@@ -42,7 +44,7 @@ $ curl clientGojekApp:mysecret@localhost:8080/oauth/token -d grant_type=password
 }
 ```
 <br/>
-# Access Token ke Resource Server
+<h4>6. Access Token ke Resource Server (Resource Server di localhost:8081)</h4>
 
 ```
 
