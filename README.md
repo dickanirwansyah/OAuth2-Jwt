@@ -12,10 +12,7 @@ Aplikasi terdiri dari :
 <li>2. Spring Security</li>
 <li>3. Spring Security OAuth2</li>
 <li>4. Spring Security Jwt</li>
-<li></li>
 </ul>
 <br/>
 <h4>Cara Menjalankan OAuth2 Authorization Server</h4>
-<div class="alert alert-default">
-<span>java -jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar</span>
-</div>
+`java -jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar`
