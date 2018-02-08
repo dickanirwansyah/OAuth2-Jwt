@@ -50,3 +50,9 @@ $ curl clientGojekApp:mysecret@localhost:8080/oauth/token -d grant_type=password
 
 $ curl http://localhost:8081/api/resource/sys -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MTgwNzY0NjcsInVzZXJfbmFtZSI6ImRpY2thbmlyd2Fuc3lhaEBnbWFpbC5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1NZU1RFTUFETUlOIl0sImp0aSI6IjVjZDYwZDdjLTNkODktNGVhYi1iMTQ2LWNmYmI2N2EyNTlmZiIsImNsaWVudF9pZCI6ImNsaWVudEdvamVrQXBwIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl19.2LKPT5LYZWQCl6AEgJ_e9a62TX4VxlLqtExgm-ka3dSOpnR9N9DP3zhT--qmLfiU2yA6SMS5zfly-rShRHhgzapoBJ_PnBprZVdJTEGD7WZCEywBfqtVgBoolBNLCeY8AMMtg8azoYrzCL08uQ-2oIbbLG4YK79aWO8atIMYKoskuJbJ8oq9IWmVqtCqOVB8bFhl2yMG1RzUqc_7UfWrVb6IV5SFXkhH2-Gwr27EYnI5Z2qhaZ_sr-8mI8dIWelAt0Yw2340ybOwHKgcU7PXVoc9zMpmw9NbOCkPStYxHUnz92eT3Lhq29y8fMmospEMQJ28HEKEB1sOyU8tlhznww"
 ```
+
+<h4>7. Jika Berhasil </h4>
+Pesan dari Rest controller akan muncul berdasarkan Role yang diakses
+```
+INI JSON DATA HAK AKSES SYSTEMADMIN
+```
