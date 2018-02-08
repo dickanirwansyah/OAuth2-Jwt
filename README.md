@@ -15,6 +15,7 @@ Aplikasi terdiri dari :
 </ul>
 # Jalankan Aplikasi OAuth2 Authorization Server
 ketik <b><i>java-jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar</i></b>  di command line 
+<br/>
 # Jalankan Aplikasi OAuth2 Resource Server 
 ketik <b><i>mvn clean spring-boot:run</i></b>
 
