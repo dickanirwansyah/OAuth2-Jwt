@@ -15,4 +15,4 @@ Aplikasi terdiri dari :
 </ul>
 <br/>
 <h4>Cara Menjalankan Aplikasi OAuth2 Authorization Server</h4>
-`java -jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar`
+ketik `java -jar build/libs/OAuth2-AuthServer-0.0.1-SNAPSHOT.jar` di command line 
