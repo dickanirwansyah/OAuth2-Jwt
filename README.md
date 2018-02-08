@@ -13,6 +13,13 @@ Aplikasi terdiri dari :
 <li>3. Spring Security OAuth2</li>
 <li>4. Spring Security Jwt</li>
 </ul>
+# OAuth2 Resource Server - Dependencies Apache Maven
+<ul>
+  <li>1. Web</li>
+  <li>2. Spring Security</li>
+  <li>3. Spring Security OAuth2</li>
+  <li>4. Spring Security JWT</li>
+</ul>
 <hr/>
 <h2>Jalankan Aplikasi</h2>
 <h4>1. Jalankan Aplikasi OAuth2 Authorization Server</h4>
