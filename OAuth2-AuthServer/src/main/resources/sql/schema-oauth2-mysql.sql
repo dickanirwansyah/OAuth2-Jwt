@@ -1,0 +1,10 @@
+CREATE TABLE USERS(
+
+    ID int auto_increment PRIMARY KEY,
+    USERNAME VARCHAR(255) NOT NULL UNIQUE,
+    PASSWORD VARCHAR(255) NOT NULL
+);
+
+INSERT INTO USERS(ID, USERNAME, PASSWORD)
+VALUES(1, 'dickanirwansyah@gmail.com', '$2a$10$epYzM2vJVX/fVkq8R5GtYeBP0kwAlYrlQpwG2k/yIu7ZlNk03fQEG');
+//password = rootroot
