@@ -4,6 +4,10 @@ Aplikasi terdiri dari :
 <ul>
 <li>1. Aplikasi OAuth2-Authorization Server</li>
 <li>2. Aplikasi OAuth2-Resource Server</li>
+<li>*NOTE*</li>
+<li>3. aplikasi-Authorization-server : Tambahan</li>
+<li>4. resources-server-oauth2 : Tambahan</li>
+
 </ul>
 <br/>
 # OAuth2 Authorization Server - Dependencies Gradle
