@@ -22,14 +22,14 @@ public class CategoriesValidator implements ConstraintValidator<CategoriesValida
         if(value == null)
             return true;
 
-        if (value.getName() == null && value.getName().isEmpty()){
+        if (value.getName() == null || value.getName().isEmpty()){
             context.disableDefaultConstraintViolation();
             context.buildConstraintViolationWithTemplate("Sorry Name is required !")
                     .addPropertyNode("name").addConstraintViolation();
             return false;
         }
 
-        if (value.getDescription() == null && value.getDescription().isEmpty()){
+        if (value.getDescription() == null || value.getDescription().isEmpty()){
             context.disableDefaultConstraintViolation();
             context.buildConstraintViolationWithTemplate("Sorry Description is required !")
                     .addPropertyNode("description").addConstraintViolation();
