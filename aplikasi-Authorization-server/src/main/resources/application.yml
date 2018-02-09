@@ -1,0 +1,14 @@
+#KONFIGURASI DATABASE & PORT
+
+server:
+  port: 10000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authserver
+    username: authserver
+    driver-class-name: org.postgresql.Driver
+    password: root
+  jpa:
+    generate-ddl: true
+    show-sql: true
