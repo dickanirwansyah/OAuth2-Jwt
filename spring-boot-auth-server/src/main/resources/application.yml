@@ -1,0 +1,14 @@
+#CONFIGURATION, JPA, PORT, DATABASE
+
+server:
+  port: 10000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authserver
+    username: authserver
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+    show-sql: true

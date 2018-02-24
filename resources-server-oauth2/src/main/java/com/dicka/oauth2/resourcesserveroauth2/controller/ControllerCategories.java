@@ -45,6 +45,15 @@ public class ControllerCategories {
                 .orElseThrow(()-> new Exception("400 Bad Request"));
     }
 
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
+    @GetMapping(value = "id")
+    public ResponseEntity<Categories> findById(@RequestParam(value = "idcategories")
+                                               String idcategories){
+        return Optional.ofNullable(categoriesService.findById(Long.parseLong(idcategories)))
+                .map(resultset -> new ResponseEntity<>(resultset, HttpStatus.OK))
+                .orElse(new ResponseEntity<Categories>(HttpStatus.BAD_REQUEST));
+    }
+
     //error exception handling
     @ExceptionHandler
     @ResponseStatus(HttpStatus.BAD_REQUEST)
